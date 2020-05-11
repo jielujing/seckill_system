@@ -1,14 +1,5 @@
-<h1 align="center">Welcome to miaosha 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/npm/v/miaosha.svg">
-  <a href="https://github.com/gb145234/miaosha.git">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-</p>
 
-> ### 基于 SpringBoot+Maven+Mybatis+Redis+RabbitMQ 的高并发秒杀系统
-
-## 🏠 [主页](https://github.com/gb145234/miaosha.git)
+### 基于 SpringBoot+Maven+Mybatis+Redis+RabbitMQ 的高并发秒杀系统
 
 ## 原理
 
@@ -64,37 +55,4 @@ IntelliJ IDEA 2017.3.1
 
 6. 安全性优化：双重md5密码校验，秒杀接口地址的隐藏，接口限流防刷，数学公式验证码。
 
-## 图片演示
-
-商品列表页面
-
-![](https://github.com/gb145234/miaosha/blob/master/images/list.png)
-
-商品详情页面
-
-![](https://github.com/gb145234/miaosha/blob/master/images/goodsdetail.png)
-
-商品秒杀倒计时
-
-![](https://github.com/gb145234/miaosha/blob/master/images/wait.png)
-
-成功秒杀页面
-
-![](https://github.com/gb145234/miaosha/blob/master/images/miaoshasuccess.png)
-
-
-## 作者
-
-👤 **Gao Bo**
-
-* Github: [@gb145234](https://github.com/gb145234)
-* 博客:https://www.cnblogs.com/kyoner/
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/gb145234/miaosha/issues).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
