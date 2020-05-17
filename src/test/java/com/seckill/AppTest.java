@@ -46,7 +46,7 @@ public class AppTest{
 //            goodsDao.insertSeckillGoods(goodsDTO);
 //        }
 
-        for(int i=1;i<=100;i++){
+        for(int i=101;i<=1000;i++){
             User user=new User();
             user.setPassword("b7797cce01b4b131b433b6acf4add449");
             user.setId(Long.valueOf("123456789"+i));
