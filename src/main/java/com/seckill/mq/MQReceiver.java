@@ -41,7 +41,7 @@ public class MQReceiver {
      */
     @RabbitListener(queues=MQConfig.SECKILL_QUEUE)
     public void receive(String message) {
-        logger.info("receive message:" + message);
+        //logger.info("receive message:" + message);
         SeckillMessageDTO mm = RedisService.stringToBean(message, SeckillMessageDTO.class);
         User user = mm.getUser();
         long goodsId = mm.getGoodsId();

@@ -33,7 +33,7 @@ public class AccessInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        System.out.println(request.getRequestURI());
+        //System.out.println(request.getRequestURI());
         if (handler instanceof HandlerMethod) {
             User user = getUser(request, response);
             if(user==null){

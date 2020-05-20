@@ -22,7 +22,7 @@ public class MQSender {
 
 	public void sendSeckillMessage(SeckillMessageDTO message) {
 		String msg = RedisService.beanToString(message);
-		logger.info("send message:" + msg);
+		//logger.info("send message:" + msg);
 		amqpTemplate.convertAndSend(MQConfig.SECKILL_QUEUE, msg);
 	}
 

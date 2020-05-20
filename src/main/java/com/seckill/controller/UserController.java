@@ -41,7 +41,7 @@ public class UserController {
     @RequestMapping("/login/do_login")
     @ResponseBody
     public Result<Boolean> doLogin(HttpServletResponse response, LoginDTO loginDTO) {
-        log.info(loginDTO.toString());
+        //log.info(loginDTO.toString());
         // 登录
         seckillUserService.login(response, loginDTO);
         return Result.success(true);
