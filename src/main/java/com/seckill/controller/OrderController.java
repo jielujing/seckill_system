@@ -39,6 +39,7 @@ public class OrderController {
     @RequestMapping("/detail")
     @ResponseBody
     public Result<OrderDetailDTO> info(@RequestParam("orderId") long orderId) {
+
         OrderInfo order = orderService.getOrderById(orderId);
         if (order == null) {
             return Result.error(CodeMsg.ORDER_NOT_EXIST);

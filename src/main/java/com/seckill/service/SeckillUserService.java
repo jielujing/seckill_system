@@ -53,7 +53,6 @@ public class SeckillUserService {
         //更新用户token
         String token = UUIDUtil.uuid();
         addCookie(response, token, user);
-
         return true;
     }
 
